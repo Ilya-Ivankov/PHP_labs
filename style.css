@@ -1,0 +1,320 @@
+html {
+  font-family: "Times New Roman", Georgia, Serif;  
+ 
+  }
+a {
+    text-decoration: none;
+}
+header {
+    bottom: 0;
+    top: 0;
+    left: 0%;
+    right: 0%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    height: 110px;
+    position: absolute;
+    display: inline-flex; 
+    background-image: url(img/gor.jpg);
+    justify-content: space-between;
+}
+main {
+    display: flex;
+    display: block;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+
+    margin-top: 120px;
+    align-content: center;
+}
+footer {
+    height: 150px;
+    width: 100%;
+    background-image: url(img/grass4.png);
+    right: 0;
+    left: 0;
+    position: absolute;
+
+}
+.qwe {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    align-items: center;
+
+}
+
+.blog {
+        font-family: "Monotype Corsiva", Georgia, Serif;  
+        text-align: center;
+        line-height: 0.1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-left: 50px;
+    
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+.active2 {
+    background-color: red;
+}
+.photo {
+    background-image: url(img/put.jpg);
+    height: 524px;
+    width: 1086px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 3px;
+}
+
+.book {
+    height: auto;
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;  
+}
+.blockquote-4 {
+    position: relative;
+    font-size: 22px;
+    margin: 16px 16px 46px 16px;
+    border: 2px solid #4CAF50;
+    border-radius:20px;
+    padding: 10px;
+    font-family: "Monotype Corsiva", Georgia, Serif;  
+ 
+}
+.blockquote-4::after {
+    content:"";
+    position: absolute;
+    border: 2px solid #4CAF50;
+    border-radius: 0 50px 0 0;
+    width: 40px;
+    height: 40px;
+    bottom: -40px;
+    left: 50px;
+    border-bottom: none;
+    border-left: none;
+    z-index: 2; 
+    box-sizing: border-box;
+} 
+.blockquote-4::before {
+    content:"";
+    position: absolute;
+    width: 80px;
+    border: 6px solid #FFF;
+    bottom: -3px;
+    left: 50px;
+    z-index: 1;
+}
+.blockquote-4 cite {
+    position: absolute;
+    bottom: -30px;
+    left: 110px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #4CAF50;
+}
+.blk {
+    background-image: url(img/blk2.jpg);
+    height: 940px;
+    width: 700px;
+    padding-left: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 120px;
+    font-family: Mistral, Georgia, Serif;  
+    font-size: 35px;
+}
+.blk p {
+    text-align: left;
+    text-indent: 100px;
+}
+.stat {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    height: 50px;
+    width: 200px;
+    background-color: #4CAF50;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 25px;
+    
+    
+}
+.stat a {
+    text-decoration: none;
+}
+.stat:hover {
+    background-color: red;
+}
+.stata {
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+
+}
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-radius: 10px;
+    border-spacing: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    }
+    th {
+    background: #caeb11;
+    color: white;
+    text-shadow: 0 1px 1px #2D2020;
+    padding: 10px 20px;
+    }
+    th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+    }
+    th:first-child, td:first-child {
+    text-align: left;
+    }
+    th:first-child {
+    border-top-left-radius: 10px;
+    }
+    th:last-child {
+    border-top-right-radius: 10px;
+    border-right: none;
+    }
+    td {
+    padding: 10px 20px;
+    background: #4CAF50;
+    }
+    tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+    }
+    tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+    }
+    tr td:last-child {
+    border-right: none;
+    }
+ @media (max-width: 1450px) {
+     .menu  {display: flex; width: 577px;}
+     .heder {justify-content: center;
+        align-items: center; }
+ }
+ @media (max-width: 1090px) {
+    .menu li a {font-size: 15px; }
+    .menu { width: 514px;  margin-left: 15px;}
+    .blog {font-size: 20px;}
+    .photo {
+        height: 424px;
+        width: 786px;
+    }
+}
+@media (max-width: 400px) {
+    .menu li a {font-size: 15px;  }
+    .menu { width: 514px;  margin-left: 5px;}
+    .blog {font-size: 12px;}
+    #foto {display: none;}
+    #fl {display: none;}
+    #adm {display: none;}
+    #inf {display: none;}
+    .menu li a {padding: 7px 8px;}
+    .photo {
+        background-image: url(img/put2.jpg);
+        height: 270px;
+        width: auto;
+    }
+    .book {
+        height: auto;
+        width: 300px;
+        margin-right: auto;
+        margin-left: auto;  
+    }
+    .blockquote-4 cite {
+        bottom: -50px;
+}
+.blockquote-4 {
+    position: relative;
+    font-size: 18px;
+    border-radius:10px;
+
+} 
+.blockquote-4 cite {
+    position: absolute;
+    bottom: -35px;
+    left: 110px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #4CAF50;
+}
+.blk {
+    background-image: url(img/blk2-2.jpg);
+    height: 400px;
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 50px;
+    font-family: Mistral, Georgia, Serif;  
+    font-size: 25px;
+    margin-left: 5px;
+}
+.blk p {
+    display: block;
+    text-align: left;
+    text-indent: 30px;
+    margin-left: 15px;
+}
+.footer {
+    height: 140px;
+}
+}
